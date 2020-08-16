@@ -1,0 +1,20 @@
+li{
+    list-style-type: none;
+}
+
+.todo-item-complete{
+    text-decoration: line-through;
+}
+
+.removeItem{
+    margin-left: 10px;
+    background: transparent;
+    border:solid 1px #ccc;
+    color: red;
+}
+
+.removeItem:hover{
+    background: red;
+    color: white;
+    cursor: pointer;
+}
